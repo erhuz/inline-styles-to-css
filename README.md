@@ -12,14 +12,14 @@ This project is a Node.js script that allows you to convert HTML input with inli
 
 3. Install the required dependencies by running the following command:
 ```
-npm install cheerio
+npm install
 ```
 
-Usage
+## Usage
 
 Prepare the HTML input that contains the inline styles you want to convert.
 
-Save the HTML input to a file, e.g., input.html, in the project directory.
+Save the HTML input to `index.html` found in the root of this project.
 
 Open the terminal or command prompt in the project directory.
 
@@ -42,14 +42,14 @@ To demonstrate the usage, let's assume we have the following HTML input (input.h
 
 By running the script, the following files will be generated:
 
-styles.css:
+`styles.css`
 
 ```css
 .class-0 { color: red; }
 .class-1 { font-size: 16px; }
 ```
 
-modified.html:
+`modified.html`
 
 ```html
 <div class="class-0">This is a red text.</div>
